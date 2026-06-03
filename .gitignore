@@ -1,0 +1,39 @@
+# Python virtual environments
+ml/.venv/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Hugging Face / model files
+models/
+ml/models/
+dataset/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Node
+node_modules/
+backend/node_modules/
+npm-debug.log
+
+# Backend temporary uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Backend temporary result files
+backend/temp/*
+!backend/temp/.gitkeep
+
+# Environment variables
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
