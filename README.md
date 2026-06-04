@@ -6,7 +6,8 @@ The user uploads an image of a waste item, the system classifies the item using 
 
 ## Official Used Links
 Repo: https://github.com/JohnZach31/GreenBin/tree/main
-Model: https://huggingface.co/yangy50/garbage-classification
+Model (HuggingFace): https://huggingface.co/yangy50/garbage-classification
+Mode (OurModel): Custom built RESNET. Use with caution
 
 ## How to use?
 1. Open the application and upload an image file (PNG or JPEG).

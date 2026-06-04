@@ -37,3 +37,16 @@ backend/temp/*
 .DS_Store
 .vscode/
 .idea/
+
+# Custom ML dataset and trained model files
+ml-ourmodel/data/raw/*
+ml-ourmodel/data/cleaned/*
+ml-ourmodel/saved_model/*
+
+# Keep empty folders in GitHub
+!ml-ourmodel/data/raw/.gitkeep
+!ml-ourmodel/data/cleaned/.gitkeep
+!ml-ourmodel/saved_model/.gitkeep
+
+# Dataset archives
+*.zip
