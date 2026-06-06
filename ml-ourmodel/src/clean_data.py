@@ -2,22 +2,54 @@ from pathlib import Path
 import shutil
 import random
 
-RAW_ROOT = Path("ml-ourmodel/data/raw/DATASET/DATASET")
-CLEAN_ROOT = Path("ml-ourmodel/data/cleaned")
+BASE_DIR = Path(__file__).resolve().parents[1]
 
-CLASS_MAP = {
-    "O": "organic",
-    "R": "recyclable",
-}
+RAW_ROOT = BASE_DIR / "data" / "raw" / "Garbage_Dataset_Classification" / "images"
+CLEAN_ROOT = BASE_DIR / "data" / "cleaned"
 
-# allow all common image formats
-IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".jfif"}
+CLASS_NAMES = [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash",
+]
+
+IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".jfif", ".webp"}
 
 
 def clear_folder(path: Path):
     if path.exists():
         shutil.rmtree(path)
     path.mkdir(parents=True, exist_ok=True)
+
+
+def get_images(folder: Path):
+    if not folder.exists():
+        raise FileNotFoundError(f"Folder not found: {folder}")
+
+    return [
+        file
+        for file in folder.rglob("*")
+        if file.is_file() and file.suffix.lower() in IMAGE_EXTENSIONS
+    ]
+
+
+def split_files(files, train_ratio=0.7, val_ratio=0.15):
+    files = list(files)
+    random.shuffle(files)
+
+    total = len(files)
+
+    train_end = int(total * train_ratio)
+    val_end = train_end + int(total * val_ratio)
+
+    train_files = files[:train_end]
+    val_files = files[train_end:val_end]
+    test_files = files[val_end:]
+
+    return train_files, val_files, test_files
 
 
 def copy_images(files, destination: Path):
@@ -27,51 +59,36 @@ def copy_images(files, destination: Path):
         shutil.copy2(file_path, destination / file_path.name)
 
 
-def split_train_val(files, val_ratio=0.15):
-    files = list(files)
-    random.shuffle(files)
-
-    val_size = int(len(files) * val_ratio)
-
-    val_files = files[:val_size]
-    train_files = files[val_size:]
-
-    return train_files, val_files
-
-
-def get_images(folder: Path):
-    return [
-        file
-        for file in folder.rglob("*")
-        if file.is_file() and file.suffix.lower() in IMAGE_EXTENSIONS
-    ]
-
-
 def main():
     random.seed(42)
 
-    print("From Raw to Clean.")
+    print("Cleaning multi-class waste dataset...")
+    print(f"Raw root: {RAW_ROOT}")
+    print(f"Clean root: {CLEAN_ROOT}")
+
     clear_folder(CLEAN_ROOT)
 
-    for old_class, new_class in CLASS_MAP.items():
-        raw_train_folder = RAW_ROOT / "TRAIN" / old_class
-        raw_test_folder = RAW_ROOT / "TEST" / old_class
+    for class_name in CLASS_NAMES:
+        raw_class_folder = RAW_ROOT / class_name
 
-        train_images = get_images(raw_train_folder)
-        test_images = get_images(raw_test_folder)
+        images = get_images(raw_class_folder)
 
-        train_files, val_files = split_train_val(train_images, val_ratio=0.15)
+        train_files, val_files, test_files = split_files(
+            images,
+            train_ratio=0.7,
+            val_ratio=0.15
+        )
 
-        copy_images(train_files, CLEAN_ROOT / "train" / new_class)
-        copy_images(val_files, CLEAN_ROOT / "val" / new_class)
-        copy_images(test_images, CLEAN_ROOT / "test" / new_class)
+        copy_images(train_files, CLEAN_ROOT / "train" / class_name)
+        copy_images(val_files, CLEAN_ROOT / "val" / class_name)
+        copy_images(test_files, CLEAN_ROOT / "test" / class_name)
 
-        print(f"{new_class}:")
+        print(f"{class_name}:")
         print(f"  train: {len(train_files)}")
         print(f"  val:   {len(val_files)}")
-        print(f"  test:  {len(test_images)}")
+        print(f"  test:  {len(test_files)}")
 
-    print("Clean:")
+    print("\nCleaned dataset created successfully.")
     print(CLEAN_ROOT)
 
 
