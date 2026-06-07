@@ -16,10 +16,16 @@ Mode (OurModel): Custom built RESNET. Use with caution
 
 ## Stack
 
-- Frontend: HTML, CSS, JavaScript
-- Backend: Node.js + Express
-- ML: yangy50/garbage-classification model from Huggingface
-- Data: Local JSON file for recycling points
+## Stack
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js + Express
+- **Image Uploads:** Multer
+- **Machine Learning:** PyTorch + Torchvision
+- **Model:** Pretrained ResNet18 fine-tuned with transfer learning for waste classification
+- **Classes:** cardboard, glass, metal, paper, plastic, trash
+- **Dataset:** Kaggle garbage classification dataset, stored locally and excluded from GitHub
+- **API Flow:** Frontend image upload → Express backend → Python prediction script → JSON response
 
 ## Project Structure
 
