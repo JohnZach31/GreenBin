@@ -1,68 +1,11 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-
-const DEMO_MODE_NOTE = 'Demo result only — frontend mock data, no backend connected.'
-
-function getDemoResult(fileName) {
-  const name = fileName.toLowerCase()
-
-  if (/(paper|carton|cardboard|toiletpaper|toilet|tissue|roll)/.test(name)) {
-    return {
-      item: 'Paper item (demo)',
-      category: 'Paper Recycling',
-      confidence: '82% demo confidence',
-      bin: 'Paper / cardboard bin',
-      location: 'Demo recycling point',
-      distance: '2.4 km (demo)',
-    }
-  }
-
-  if (/(plastic|bottle)/.test(name)) {
-    return {
-      item: 'Plastic item (demo)',
-      category: 'Plastic Recycling',
-      confidence: '91% demo confidence',
-      bin: 'Plastic / PET bin',
-      location: 'Demo recycling point',
-      distance: '1.1 km (demo)',
-    }
-  }
-
-  if (/glass/.test(name)) {
-    return {
-      item: 'Glass item (demo)',
-      category: 'Glass Recycling',
-      confidence: '88% demo confidence',
-      bin: 'Glass bin',
-      location: 'Demo recycling point',
-      distance: '1.8 km (demo)',
-    }
-  }
-
-  if (/battery/.test(name)) {
-    return {
-      item: 'Battery item (demo)',
-      category: 'Battery Recycling',
-      confidence: '95% demo confidence',
-      bin: 'Battery disposal bin',
-      location: 'Demo recycling point',
-      distance: '0.7 km (demo)',
-    }
-  }
-
-  return {
-    item: 'Unknown item - demo result',
-    category: 'Unknown item - demo result',
-    confidence: 'Demo confidence unavailable',
-    bin: 'General recycling guidance',
-    location: 'Demo recycling point',
-    distance: 'Demo distance',
-  }
-}
+import { analyzeWaste } from './api'
 
 function App() {
   const [previewUrl, setPreviewUrl] = useState('')
   const [fileName, setFileName] = useState('No image selected yet')
+  const [selectedFile, setSelectedFile] = useState(null)
   const [isDragging, setIsDragging] = useState(false)
   const [isAnalyzing, setIsAnalyzing] = useState(false)
   const [result, setResult] = useState(null)
@@ -74,13 +17,27 @@ function App() {
   }, [previewUrl])
 
   const handleImageUpload = (file) => {
-    if (!file || !file.type.startsWith('image/')) return
+    console.log('handleImageUpload fired')
+    console.log('file:', file)
+
+    if (!file) {
+      console.log('No file received')
+      return
+    }
+
+    if (!file.type.startsWith('image/')) {
+      console.log('Not an image:', file.type)
+      return
+    }
 
     if (previewUrl) URL.revokeObjectURL(previewUrl)
 
     setFileName(file.name)
+    setSelectedFile(file)
     setPreviewUrl(URL.createObjectURL(file))
     setResult(null)
+
+    console.log('Image selected successfully:', file.name)
   }
 
   const onFileInputChange = (event) => {
@@ -94,21 +51,45 @@ function App() {
   }
 
   const analyzeImage = async () => {
-    if (!previewUrl) return
+    console.log('Analyze button clicked')
+    console.log('selectedFile:', selectedFile)
+
+    if (!selectedFile) {
+      alert('No image selected')
+      return
+    }
 
     setIsAnalyzing(true)
     setResult(null)
 
-    await new Promise((resolve) => setTimeout(resolve, 1100))
+    const city = document.getElementById('city')?.value || 'Tel Aviv'
+    const address = document.getElementById('address')?.value || ''
 
-    // Frontend-only mock/demo result for the current prototype.
-    const demoResult = getDemoResult(fileName)
+    try {
+      console.log('Sending image to backend...')
 
-    setResult({
-      ...demoResult,
-      note: DEMO_MODE_NOTE,
-    })
-    setIsAnalyzing(false)
+      const realResult = await analyzeWaste({
+        city,
+        address,
+        file: selectedFile,
+      })
+
+      console.log('Backend result:', realResult)
+      setResult(realResult)
+    } catch (error) {
+      console.error('Analyze error:', error)
+
+      setResult({
+        item: 'Error',
+        category: 'Could not analyze image',
+        confidence: '-',
+        bin: 'Please try again',
+        location: 'Backend/model error',
+        distance: error.message,
+      })
+    } finally {
+      setIsAnalyzing(false)
+    }
   }
 
   return (
@@ -137,9 +118,15 @@ function App() {
           </div>
 
           <aside className="hero-metrics" aria-label="Highlights">
-            <article className="metric-card">98%<span>Accuracy</span></article>
-            <article className="metric-card">24/7<span>Local guidance</span></article>
-            <article className="metric-card">4.9/5<span>User rating</span></article>
+            <article className="metric-card">
+              82.7%<span>Model accuracy</span>
+            </article>
+            <article className="metric-card">
+              6<span>Waste classes</span>
+            </article>
+            <article className="metric-card">
+              ResNet<span>AI model</span>
+            </article>
           </aside>
         </section>
 
@@ -178,7 +165,11 @@ function App() {
 
             <div className="upload-meta">
               <p className="file-name">{fileName}</p>
-              <button className="ghost-button" type="button" onClick={() => document.getElementById('image-upload').click()}>
+              <button
+                className="ghost-button"
+                type="button"
+                onClick={() => document.getElementById('image-upload')?.click()}
+              >
                 Browse files
               </button>
             </div>
@@ -187,7 +178,9 @@ function App() {
               {previewUrl ? (
                 <img src={previewUrl} alt="Uploaded preview" className="preview-image" />
               ) : (
-                <span className="preview-placeholder">Your selected image will appear here with a smooth, polished preview.</span>
+                <span className="preview-placeholder">
+                  Your selected image will appear here with a smooth, polished preview.
+                </span>
               )}
             </div>
           </article>
@@ -208,9 +201,19 @@ function App() {
             </select>
 
             <label className="field-label" htmlFor="address">Address</label>
-            <input id="address" className="input-field" type="text" placeholder="Enter your street or landmark" />
+            <input
+              id="address"
+              className="input-field"
+              type="text"
+              placeholder="Enter your street or landmark"
+            />
 
-            <button className="primary-button full-width" type="button" onClick={analyzeImage} disabled={isAnalyzing || !previewUrl}>
+            <button
+              className="primary-button full-width"
+              type="button"
+              onClick={analyzeImage}
+              disabled={isAnalyzing || !selectedFile}
+            >
               {isAnalyzing ? <span className="spinner" aria-hidden="true" /> : 'Analyze Waste'}
               {isAnalyzing ? ' Analyzing...' : ''}
             </button>
@@ -223,36 +226,40 @@ function App() {
               <p className="eyebrow">Result</p>
               <h2>Recycling recommendation</h2>
             </div>
-            <span className="status-badge success">Demo result</span>
+            <span className="status-badge success">Model result</span>
           </div>
-          <p className="demo-note">{DEMO_MODE_NOTE}</p>
+
+          <p className="demo-note">
+            This result comes from the local ResNet model through the backend.
+          </p>
 
           {result ? (
             <div className="result-grid">
-              <article className="result-card demo-banner-card">
-                <p className="result-label">Demo mode</p>
-                <strong>{result.note}</strong>
-              </article>
               <article className="result-card highlight-card">
                 <p className="result-label">Detected item</p>
                 <strong>{result.item}</strong>
               </article>
+
               <article className="result-card">
                 <p className="result-label">Category</p>
                 <strong>{result.category}</strong>
               </article>
+
               <article className="result-card">
                 <p className="result-label">Confidence</p>
                 <strong>{result.confidence}</strong>
               </article>
+
               <article className="result-card">
                 <p className="result-label">Recommended bin</p>
                 <strong>{result.bin}</strong>
               </article>
+
               <article className="result-card">
                 <p className="result-label">Nearest recycling point</p>
                 <strong>{result.location}</strong>
               </article>
+
               <article className="result-card">
                 <p className="result-label">Distance</p>
                 <strong>{result.distance}</strong>
@@ -260,7 +267,9 @@ function App() {
             </div>
           ) : (
             <div className="empty-result">
-              <p>Once you upload an image and tap analyze, your smart recycling recommendation will appear here with a premium success state.</p>
+              <p>
+                Once you upload an image and tap analyze, your smart recycling recommendation will appear here with a premium success state.
+              </p>
             </div>
           )}
         </section>
