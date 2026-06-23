@@ -1,0 +1,178 @@
+[
+  {
+    "id": "rishon-plastic-packaging-001",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "אברמוביץ",
+    "address": "אהרון וברוך 6, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9736165,
+    "lng": 34.7989958
+  },
+  {
+    "id": "rishon-plastic-packaging-002",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "חביבה רייך 6, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9726272,
+    "lng": 34.7957614
+  },
+  {
+    "id": "rishon-plastic-packaging-003",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נווה ים",
+    "address": "הדייגים 10, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9867415,
+    "lng": 34.7784058
+  },
+  {
+    "id": "rishon-paper-001",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "אברמוביץ",
+    "address": "בית\"ר 12, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9676544,
+    "lng": 34.8000316
+  },
+  {
+    "id": "rishon-paper-002",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "נורדאו 101, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9542853,
+    "lng": 34.8084622
+  },
+  {
+    "id": "rishon-paper-003",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמז",
+    "address": "ויניק 37, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9573962,
+    "lng": 34.7943705
+  },
+  {
+    "id": "rishon-glass-001",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "אברמוביץ",
+    "address": "הרצל 88, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9629894,
+    "lng": 34.8028575
+  },
+  {
+    "id": "rishon-glass-002",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "אברמוביץ",
+    "address": "קרל נטר 26, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9733523,
+    "lng": 34.803138
+  },
+  {
+    "id": "rishon-glass-003",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמב\"ם",
+    "address": "אברבנל 6, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9656967,
+    "lng": 34.8121578
+  },
+  {
+    "id": "rishon-cardboard-002",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "רקפות",
+    "address": "רבי עקיבא 29, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9467039,
+    "lng": 34.8290646
+  },
+  {
+    "id": "rishon-cardboard-003",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "נאות אשלים",
+    "address": "התזמורת 20, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9680196,
+    "lng": 34.7753264
+  },
+  {
+    "id": "rishon-textile-002",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "אברמוביץ",
+    "address": "בית\"ר 12, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9676544,
+    "lng": 34.8000316
+  },
+  {
+    "id": "rishon-textile-003",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמז",
+    "address": "ויניק 37, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9573962,
+    "lng": 34.7943705
+  },
+  {
+    "id": "rishon-electronic-waste-001",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "האירוס",
+    "address": "שמשון זליג 5, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9509844,
+    "lng": 34.8050996
+  },
+  {
+    "id": "rishon-electronic-waste-002",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "מרכז העיר",
+    "address": "ז'בוטינסקי 16, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.962774,
+    "lng": 34.8005569
+  },
+  {
+    "id": "rishon-electronic-waste-003",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "נחלת יהודה",
+    "address": "העצמאות 46, ראשון לציון",
+    "source": "Rishon LeZion municipality",
+    "lat": 31.9837514,
+    "lng": 34.8033109
+  }
+]

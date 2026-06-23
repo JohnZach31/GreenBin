@@ -4,6 +4,22 @@ import './App.css'
 const API_URL =
   import.meta.env.VITE_API_URL || 'http://localhost:3000/api/classify'
 
+  const NEAREST_BIN_URL =
+  import.meta.env.VITE_NEAREST_BIN_URL || 'http://localhost:3000/api/nearest-bin'
+
+const CITY_FALLBACK_COORDS = {
+  tel_aviv: {
+    label: 'Tel Aviv',
+    lat: 32.0853,
+    lng: 34.7818,
+  },
+  rishon_lezion: {
+    label: 'Rishon LeZion',
+    lat: 31.973,
+    lng: 34.7925,
+  },
+}
+
 function App() {
   const videoRef = useRef(null)
   const canvasRef = useRef(null)
@@ -12,6 +28,14 @@ function App() {
   const [selectedFile, setSelectedFile] = useState(null)
   const [previewUrl, setPreviewUrl] = useState('')
   const [fileName, setFileName] = useState('No image selected yet')
+  const [processStatus, setProcessStatus] = useState('')
+
+  const [selectedCity, setSelectedCity] = useState('rishon_lezion')
+  const [locationStatus, setLocationStatus] = useState('Location will be requested when analyzing.')
+  const [manualCategory, setManualCategory] = useState('textile')
+  const [manualResult, setManualResult] = useState(null)
+  const [isFindingManual, setIsFindingManual] = useState(false)
+  const [manualError, setManualError] = useState('')
 
   const [isDragging, setIsDragging] = useState(false)
   const [isAnalyzing, setIsAnalyzing] = useState(false)
@@ -149,19 +173,73 @@ function App() {
     )
   }
 
+  const getCurrentLocationOrFallback = async () => {
+    const fallback = CITY_FALLBACK_COORDS[selectedCity]
+
+    if (!navigator.geolocation || !window.isSecureContext) {
+      setLocationStatus(
+        `Using ${fallback.label} demo coordinates because browser location needs HTTPS or localhost.`
+      )
+
+      return {
+        lat: fallback.lat,
+        lng: fallback.lng,
+        source: 'fallback',
+      }
+    }
+
+    try {
+      setLocationStatus('Requesting your location...')
+
+      const position = await new Promise((resolve, reject) => {
+        navigator.geolocation.getCurrentPosition(resolve, reject, {
+          enableHighAccuracy: true,
+          timeout: 10000,
+          maximumAge: 0,
+        })
+      })
+
+      setLocationStatus('Using your current location.')
+
+      return {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude,
+        source: 'gps',
+      }
+    } catch (err) {
+      console.error(err)
+
+      setLocationStatus(
+        `Could not get your location. Using ${fallback.label} demo coordinates.`
+      )
+
+      return {
+        lat: fallback.lat,
+        lng: fallback.lng,
+        source: 'fallback',
+      }
+    }
+  }
+
   const analyzeImage = async () => {
     if (!selectedFile) {
       setError('Please upload or take a photo first.')
       return
     }
 
+    setProcessStatus('Processing image...')
     setIsAnalyzing(true)
     setResult(null)
     setError('')
 
     try {
+      const location = await getCurrentLocationOrFallback()
+
       const formData = new FormData()
       formData.append('image', selectedFile)
+      formData.append('lat', location.lat)
+      formData.append('lng', location.lng)
+      formData.append('city', selectedCity)
 
       const response = await fetch(API_URL, {
         method: 'POST',
@@ -174,7 +252,11 @@ function App() {
         throw new Error(data.details || data.error || 'Image analysis failed.')
       }
 
-      setResult(data)
+      setResult({
+        ...data,
+        locationSource: location.source,
+      })
+      setProcessStatus('Process done')
     } catch (err) {
       console.error(err)
       setError(err.message || 'Something went wrong while analyzing the image.')
@@ -183,9 +265,55 @@ function App() {
     }
   }
 
+  const findManualBin = async () => {
+  setIsFindingManual(true)
+  setManualResult(null)
+  setManualError('')
+
+  try {
+    const location = await getCurrentLocationOrFallback()
+
+    // Manual flow: no image, only category + location.
+    const response = await fetch(NEAREST_BIN_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        category: manualCategory,
+        city: selectedCity,
+        lat: location.lat,
+        lng: location.lng,
+      }),
+    })
+
+    const data = await response.json()
+
+    if (!response.ok) {
+      throw new Error(data.details || data.error || 'Could not find nearest bin.')
+    }
+
+    setManualResult({
+      ...data,
+      locationSource: location.source,
+    })
+  } catch (err) {
+    console.error(err)
+    setManualError(err.message || 'Something went wrong while finding the bin.')
+  } finally {
+    setIsFindingManual(false)
+  }
+}
+
   const confidencePercent = result?.confidence
     ? `${Math.round(Number(result.confidence) * 100)}%`
     : 'Unavailable'
+
+  const nearestPointDistance = result?.nearestPoint?.distanceMeters
+    ? result.nearestPoint.distanceMeters >= 1000
+      ? `${(result.nearestPoint.distanceMeters / 1000).toFixed(2)} km`
+      : `${result.nearestPoint.distanceMeters} m`
+    : 'Coming soon'
 
   return (
     <div className="page-shell">
@@ -351,8 +479,38 @@ function App() {
               <p className="eyebrow">Analyze</p>
               <h2>Send image to model</h2>
             </div>
-            <span className="status-badge success">Backend ready</span>
           </div>
+
+          {processStatus && (
+  <div className={`process-status ${processStatus === 'Process done' ? 'done' : ''}`}>
+    <span>{processStatus}</span>
+
+    {processStatus === 'Process done' && (
+      <a className="ghost-button small-action" href="#results">
+        View results
+      </a>
+    )}
+  </div>
+)}
+
+          <label className="field-label" htmlFor="city">
+            City
+          </label>
+
+          <select
+            id="city"
+            className="input-field"
+            value={selectedCity}
+            onChange={(event) => setSelectedCity(event.target.value)}
+            disabled={isAnalyzing}
+          >
+            <option value="rishon_lezion">Rishon LeZion</option>
+            <option value="tel_aviv">Tel Aviv</option>
+          </select>
+
+          <p className="location-message">
+            {locationStatus}
+          </p>
 
           <button
             className="primary-button full-width"
@@ -376,6 +534,87 @@ function App() {
             </p>
           )}
         </section>
+
+        <section className="card-surface reveal" aria-label="Manual recycling search">
+  <div className="section-heading">
+    <div>
+      <p className="eyebrow">Manual search</p>
+      <h2>Find a recycling point without AI</h2>
+    </div>
+    <span className="status-badge">Manual mode</span>
+  </div>
+
+  <label className="field-label" htmlFor="manual-category">
+    Recycling category
+  </label>
+
+  <select
+    id="manual-category"
+    className="input-field"
+    value={manualCategory}
+    onChange={(event) => setManualCategory(event.target.value)}
+    disabled={isFindingManual}
+  >
+    <option value="plastic_packaging">Plastic & Packaging</option>
+    <option value="paper">Paper</option>
+    <option value="glass">Glass</option>
+    <option value="cardboard">Cardboard</option>
+    <option value="textile">Textile</option>
+    <option value="electronic_waste">Electronic Waste</option>
+  </select>
+
+  <button
+    className="primary-button full-width"
+    type="button"
+    onClick={findManualBin}
+    disabled={isFindingManual}
+  >
+    {isFindingManual ? <span className="spinner" aria-hidden="true" /> : 'Find Nearest Bin'}
+    {isFindingManual ? ' Finding nearest bin...' : ''}
+  </button>
+
+  {manualError && (
+    <p className="error-message">
+      {manualError}
+    </p>
+  )}
+
+  {manualResult?.nearestPoint && (
+    <div className="result-grid manual-result-grid">
+      <article className="result-card highlight-card">
+        <p className="result-label">Nearest point</p>
+        <strong>
+          {manualResult.nearestPoint.name || manualResult.nearestPoint.address}
+        </strong>
+      </article>
+
+      <article className="result-card">
+        <p className="result-label">Address</p>
+        <strong>{manualResult.nearestPoint.address}</strong>
+      </article>
+
+      {manualResult.nearestPoint.lat && manualResult.nearestPoint.lng && (
+        <article className="result-card demo-banner-card">
+          <p className="result-label">Open in map</p>
+          <a
+            className="ghost-button"
+            href={`https://www.google.com/maps/search/?api=1&query=${manualResult.nearestPoint.lat},${manualResult.nearestPoint.lng}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open Google Maps
+          </a>
+        </article>
+      )}
+    </div>
+  )}
+
+  {manualResult && !manualResult.nearestPoint && (
+    <p className="empty-result">
+      No matching recycling point found for this category yet.
+    </p>
+  )}
+</section>
 
         <section className="card-surface reveal" id="results">
           <div className="section-heading">
@@ -413,13 +652,36 @@ function App() {
 
               <article className="result-card">
                 <p className="result-label">Nearest recycling point</p>
-                <strong>Coming soon</strong>
+                <strong>
+                  {result.nearestPoint?.name ||
+                    result.nearestPoint?.address ||
+                    'No matching point found yet'}
+                </strong>
               </article>
 
               <article className="result-card">
-                <p className="result-label">Distance</p>
-                <strong>Coming soon</strong>
+                <p className="result-label">Address</p>
+                <strong>{result.nearestPoint?.address || 'Coming soon'}</strong>
               </article>
+
+              <article className="result-card">
+                <p className="result-label">Location source</p>
+                <strong>{result.locationSource || 'Unknown'}</strong>
+              </article>
+
+              {result.nearestPoint?.lat && result.nearestPoint?.lng && (
+                <article className="result-card demo-banner-card">
+                  <p className="result-label">Open in map</p>
+                  <a
+                    className="ghost-button"
+                    href={`https://www.google.com/maps/search/?api=1&query=${result.nearestPoint.lat},${result.nearestPoint.lng}`}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Open Google Maps
+                  </a>
+                </article>
+              )}
 
               {result.topPredictions?.length > 0 && (
                 <article className="result-card demo-banner-card">
