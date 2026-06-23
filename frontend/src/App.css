@@ -434,3 +434,80 @@ html { scroll-behavior: smooth; }
   .ghost-button, .primary-button { width: 100%; }
   .section-heading { flex-direction: column; }
 }
+
+.camera-box {
+  margin-top: 12px;
+  border-radius: 22px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #edf8ef, #f7fff7);
+  border: 1px solid #d8eadb;
+}
+
+.camera-video {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  animation: fadeIn 280ms ease;
+}
+
+.camera-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.camera-helper {
+  color: #4f6456;
+  font-size: 0.92rem;
+  margin: 12px 0 0;
+}
+
+.hidden-canvas {
+  display: none;
+}
+
+.loading-message {
+  color: #35654a;
+  font-size: 0.95rem;
+  margin: 12px 0 0;
+}
+
+.error-message {
+  color: #9f1239;
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+  padding: 10px 12px;
+  border-radius: 14px;
+  font-weight: 700;
+  margin: 12px 0 0;
+}
+
+.prediction-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.prediction-pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  background: rgba(76, 175, 80, 0.12);
+  color: #27653a;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 8px 10px;
+}
+
+@media (max-width: 520px) {
+  .camera-actions {
+    flex-direction: column;
+  }
+
+  .camera-actions .primary-button,
+  .camera-actions .ghost-button {
+    width: 100%;
+  }
+}
