@@ -4,19 +4,34 @@ import './App.css'
 const API_URL =
   import.meta.env.VITE_API_URL || 'http://localhost:3000/api/classify'
 
-  const NEAREST_BIN_URL =
+const NEAREST_BIN_URL =
   import.meta.env.VITE_NEAREST_BIN_URL || 'http://localhost:3000/api/nearest-bin'
 
 const CITY_FALLBACK_COORDS = {
+  rishon_lezion: {
+    label: 'Rishon LeZion',
+    lat: 31.973,
+    lng: 34.7925,
+  },
   tel_aviv: {
     label: 'Tel Aviv',
     lat: 32.0853,
     lng: 34.7818,
   },
-  rishon_lezion: {
-    label: 'Rishon LeZion',
-    lat: 31.973,
-    lng: 34.7925,
+  holon: {
+    label: 'Holon',
+    lat: 32.0158,
+    lng: 34.7874,
+  },
+  rehovot: {
+    label: 'Rehovot',
+    lat: 31.8948,
+    lng: 34.8113,
+  },
+  haifa: {
+    label: 'Haifa',
+    lat: 32.794,
+    lng: 34.9896,
   },
 }
 
@@ -31,7 +46,10 @@ function App() {
   const [processStatus, setProcessStatus] = useState('')
 
   const [selectedCity, setSelectedCity] = useState('rishon_lezion')
-  const [locationStatus, setLocationStatus] = useState('Location will be requested when analyzing.')
+  const [locationStatus, setLocationStatus] = useState(
+    'Location will be requested when analyzing.'
+  )
+
   const [manualCategory, setManualCategory] = useState('textile')
   const [manualResult, setManualResult] = useState(null)
   const [isFindingManual, setIsFindingManual] = useState(false)
@@ -81,6 +99,7 @@ function App() {
     setPreviewUrl(URL.createObjectURL(file))
     setResult(null)
     setError('')
+    setProcessStatus('')
   }
 
   const onFileInputChange = (event) => {
@@ -97,7 +116,9 @@ function App() {
     setError('')
 
     if (!window.isSecureContext) {
-      setError('Live camera requires HTTPS or localhost. Please use Take or Upload Photo instead.')
+      setError(
+        'Live camera requires HTTPS or localhost. Please use Take or Upload Photo instead.'
+      )
       return
     }
 
@@ -167,6 +188,7 @@ function App() {
         })
 
         setImageFile(file)
+        stopCamera()
       },
       'image/jpeg',
       0.95
@@ -256,64 +278,59 @@ function App() {
         ...data,
         locationSource: location.source,
       })
+
       setProcessStatus('Process done')
     } catch (err) {
       console.error(err)
       setError(err.message || 'Something went wrong while analyzing the image.')
+      setProcessStatus('')
     } finally {
       setIsAnalyzing(false)
     }
   }
 
   const findManualBin = async () => {
-  setIsFindingManual(true)
-  setManualResult(null)
-  setManualError('')
+    setIsFindingManual(true)
+    setManualResult(null)
+    setManualError('')
 
-  try {
-    const location = await getCurrentLocationOrFallback()
+    try {
+      const location = await getCurrentLocationOrFallback()
 
-    // Manual flow: no image, only category + location.
-    const response = await fetch(NEAREST_BIN_URL, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        category: manualCategory,
-        city: selectedCity,
-        lat: location.lat,
-        lng: location.lng,
-      }),
-    })
+      const response = await fetch(NEAREST_BIN_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          category: manualCategory,
+          city: selectedCity,
+          lat: location.lat,
+          lng: location.lng,
+        }),
+      })
 
-    const data = await response.json()
+      const data = await response.json()
 
-    if (!response.ok) {
-      throw new Error(data.details || data.error || 'Could not find nearest bin.')
+      if (!response.ok) {
+        throw new Error(data.details || data.error || 'Could not find nearest bin.')
+      }
+
+      setManualResult({
+        ...data,
+        locationSource: location.source,
+      })
+    } catch (err) {
+      console.error(err)
+      setManualError(err.message || 'Something went wrong while finding the bin.')
+    } finally {
+      setIsFindingManual(false)
     }
-
-    setManualResult({
-      ...data,
-      locationSource: location.source,
-    })
-  } catch (err) {
-    console.error(err)
-    setManualError(err.message || 'Something went wrong while finding the bin.')
-  } finally {
-    setIsFindingManual(false)
   }
-}
 
   const confidencePercent = result?.confidence
     ? `${Math.round(Number(result.confidence) * 100)}%`
     : 'Unavailable'
-
-  const nearestPointDistance = result?.nearestPoint?.distanceMeters
-    ? result.nearestPoint.distanceMeters >= 1000
-      ? `${(result.nearestPoint.distanceMeters / 1000).toFixed(2)} km`
-      : `${result.nearestPoint.distanceMeters} m`
-    : 'Coming soon'
 
   return (
     <div className="page-shell">
@@ -322,9 +339,10 @@ function App() {
 
         <nav className="nav-links" aria-label="Primary navigation">
           <a href="#upload">Upload</a>
+          <a href="#analyze">Analyze</a>
+          <a href="#manual">Manual</a>
           <a href="#camera">Camera</a>
           <a href="#results">Results</a>
-          <a href="#contact">Contact</a>
         </nav>
       </header>
 
@@ -339,19 +357,19 @@ function App() {
 
             <div className="cta-row">
               <a className="primary-button" href="#upload">Start Recycling</a>
-              <span className="mini-pill">Upload • Camera • AI</span>
+              <span className="mini-pill">Upload • AI • Local guidance</span>
             </div>
           </div>
 
           <aside className="hero-metrics" aria-label="Highlights">
             <article className="metric-card">AI<span>Hugging Face model</span></article>
-            <article className="metric-card">Live<span>Backend connected</span></article>
+            <article className="metric-card">532<span>Parsed city points</span></article>
             <article className="metric-card">IL<span>Israel bin guidance</span></article>
           </aside>
         </section>
 
-        <section className="content-grid">
-          <article className="card-surface reveal" id="upload">
+        <section className="workflow-grid">
+          <article className="card-surface reveal upload-card" id="upload">
             <div className="section-heading">
               <div>
                 <p className="eyebrow">Upload image</p>
@@ -400,7 +418,11 @@ function App() {
 
             <div className="preview-box">
               {previewUrl ? (
-                <img src={previewUrl} alt="Selected waste preview" className="preview-image" />
+                <img
+                  src={previewUrl}
+                  alt="Selected waste preview"
+                  className="preview-image"
+                />
               ) : (
                 <span className="preview-placeholder">
                   Your selected image will appear here.
@@ -409,214 +431,236 @@ function App() {
             </div>
           </article>
 
-          <article className="card-surface reveal" id="camera">
+          <article className="card-surface reveal analyze-card" id="analyze">
             <div className="section-heading">
               <div>
-                <p className="eyebrow">Camera</p>
-                <h2>Take a live photo</h2>
+                <p className="eyebrow">Analyze</p>
+                <h2>Send image to model</h2>
               </div>
-
-              <span className={`status-badge ${isCameraOpen ? 'success' : ''}`}>
-                {isCameraOpen ? 'Camera open' : 'Ready'}
-              </span>
+              <span className="status-badge">Step 2</span>
             </div>
 
-            {!isCameraOpen ? (
-              <button
-                className="primary-button full-width"
-                type="button"
-                onClick={openCamera}
-                disabled={isCameraLoading || isAnalyzing}
-              >
-                {isCameraLoading ? <span className="spinner" aria-hidden="true" /> : 'Open Camera'}
-                {isCameraLoading ? ' Opening camera...' : ''}
-              </button>
-            ) : (
-              <>
-                <div className="camera-box">
-                  <video
-                    ref={videoRef}
-                    autoPlay
-                    playsInline
-                    muted
-                    className="camera-video"
-                  />
+            <label className="field-label" htmlFor="city">
+              City
+            </label>
+
+            <select
+              id="city"
+              className="input-field"
+              value={selectedCity}
+              onChange={(event) => setSelectedCity(event.target.value)}
+              disabled={isAnalyzing}
+            >
+              <option value="rishon_lezion">Rishon LeZion</option>
+              <option value="tel_aviv">Tel Aviv</option>
+              <option value="holon">Holon</option>
+              <option value="rehovot">Rehovot</option>
+              <option value="haifa">Haifa</option>
+            </select>
+
+            <p className="location-message">
+              {locationStatus}
+            </p>
+
+            <button
+              className="primary-button full-width"
+              type="button"
+              onClick={analyzeImage}
+              disabled={isAnalyzing || !selectedFile}
+            >
+              {isAnalyzing ? <span className="spinner" aria-hidden="true" /> : 'Analyze Waste'}
+              {isAnalyzing ? ' Analyzing image...' : ''}
+            </button>
+
+            {isAnalyzing && (
+              <div className="processing-box">
+                <div className="processing-header">
+                  <span>Processing image...</span>
+                  <span>AI model running</span>
                 </div>
 
-                <div className="camera-actions">
-                  <button
-                    className="primary-button"
-                    type="button"
-                    onClick={takePhoto}
-                    disabled={isAnalyzing}
-                  >
-                    Take Photo
-                  </button>
-
-                  <button
-                    className="ghost-button"
-                    type="button"
-                    onClick={stopCamera}
-                    disabled={isAnalyzing}
-                  >
-                    Close Camera
-                  </button>
+                <div className="processing-bar">
+                  <div className="processing-bar-fill" />
                 </div>
-              </>
+
+                <p className="processing-note">
+                  First run may take a little longer while the model wakes up.
+                </p>
+              </div>
             )}
 
-            <canvas ref={canvasRef} className="hidden-canvas" />
+            {processStatus === 'Process done' && !isAnalyzing && (
+              <div className="process-status done">
+                <span>Process done</span>
 
-            <p className="camera-helper">
-              Live camera preview works on localhost or HTTPS. On mobile testing, use “Take or Upload Photo”.
-            </p>
+                <a className="ghost-button small-action" href="#results">
+                  View results
+                </a>
+              </div>
+            )}
+
+            {error && (
+              <p className="error-message">
+                {error}
+              </p>
+            )}
           </article>
         </section>
 
-        <section className="card-surface reveal" aria-label="Analyze section">
+        <section className="card-surface reveal manual-card" id="manual">
           <div className="section-heading">
             <div>
-              <p className="eyebrow">Analyze</p>
-              <h2>Send image to model</h2>
+              <p className="eyebrow">Manual search</p>
+              <h2>Find a recycling point without AI</h2>
             </div>
+            <span className="status-badge">Manual mode</span>
           </div>
 
-          {processStatus && (
-  <div className={`process-status ${processStatus === 'Process done' ? 'done' : ''}`}>
-    <span>{processStatus}</span>
-
-    {processStatus === 'Process done' && (
-      <a className="ghost-button small-action" href="#results">
-        View results
-      </a>
-    )}
-  </div>
-)}
-
-          <label className="field-label" htmlFor="city">
-            City
+          <label className="field-label" htmlFor="manual-category">
+            Recycling category
           </label>
 
           <select
-            id="city"
+            id="manual-category"
             className="input-field"
-            value={selectedCity}
-            onChange={(event) => setSelectedCity(event.target.value)}
-            disabled={isAnalyzing}
+            value={manualCategory}
+            onChange={(event) => setManualCategory(event.target.value)}
+            disabled={isFindingManual}
           >
-            <option value="rishon_lezion">Rishon LeZion</option>
-            <option value="tel_aviv">Tel Aviv</option>
+            <option value="plastic_packaging">Plastic & Packaging</option>
+            <option value="paper">Paper</option>
+            <option value="glass">Glass</option>
+            <option value="cardboard">Cardboard</option>
+            <option value="textile">Textile</option>
+            <option value="electronic_waste">Electronic Waste</option>
           </select>
-
-          <p className="location-message">
-            {locationStatus}
-          </p>
 
           <button
             className="primary-button full-width"
             type="button"
-            onClick={analyzeImage}
-            disabled={isAnalyzing || !selectedFile}
+            onClick={findManualBin}
+            disabled={isFindingManual}
           >
-            {isAnalyzing ? <span className="spinner" aria-hidden="true" /> : 'Analyze Waste'}
-            {isAnalyzing ? ' Analyzing image...' : ''}
+            {isFindingManual ? <span className="spinner" aria-hidden="true" /> : 'Find Nearest Bin'}
+            {isFindingManual ? ' Finding nearest bin...' : ''}
           </button>
 
-          {isAnalyzing && (
-            <p className="loading-message">
-              The model is processing your image. First run may take a little longer.
+          {manualError && (
+            <p className="error-message">
+              {manualError}
             </p>
           )}
 
-          {error && (
-            <p className="error-message">
-              {error}
+          {manualResult?.nearestPoint && (
+            <div className="result-grid manual-result-grid">
+              <article className="result-card highlight-card">
+                <p className="result-label">Nearest point</p>
+                <strong>
+                  {manualResult.nearestPoint.name || manualResult.nearestPoint.address}
+                </strong>
+              </article>
+
+              <article className="result-card">
+                <p className="result-label">Address</p>
+                <strong>{manualResult.nearestPoint.address}</strong>
+              </article>
+
+              <article className="result-card">
+                <p className="result-label">Bin type</p>
+                <strong>{manualResult.nearestPoint.bin}</strong>
+              </article>
+
+              <article className="result-card demo-banner-card">
+                <p className="result-label">Open in map</p>
+                <a
+                  className="ghost-button"
+                  href={
+                    manualResult.nearestPoint.googleMapsUrl ||
+                    `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                      manualResult.nearestPoint.address
+                    )}`
+                  }
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Open Google Maps
+                </a>
+              </article>
+            </div>
+          )}
+
+          {manualResult && !manualResult.nearestPoint && (
+            <p className="empty-result">
+              No matching recycling point found for this category yet.
             </p>
           )}
         </section>
 
-        <section className="card-surface reveal" aria-label="Manual recycling search">
-  <div className="section-heading">
-    <div>
-      <p className="eyebrow">Manual search</p>
-      <h2>Find a recycling point without AI</h2>
-    </div>
-    <span className="status-badge">Manual mode</span>
-  </div>
+        <section className="card-surface reveal camera-card" id="camera">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">Camera</p>
+              <h2>Optional live camera</h2>
+            </div>
 
-  <label className="field-label" htmlFor="manual-category">
-    Recycling category
-  </label>
+            <span className={`status-badge ${isCameraOpen ? 'success' : ''}`}>
+              {isCameraOpen ? 'Camera open' : 'Optional'}
+            </span>
+          </div>
 
-  <select
-    id="manual-category"
-    className="input-field"
-    value={manualCategory}
-    onChange={(event) => setManualCategory(event.target.value)}
-    disabled={isFindingManual}
-  >
-    <option value="plastic_packaging">Plastic & Packaging</option>
-    <option value="paper">Paper</option>
-    <option value="glass">Glass</option>
-    <option value="cardboard">Cardboard</option>
-    <option value="textile">Textile</option>
-    <option value="electronic_waste">Electronic Waste</option>
-  </select>
+          {!isCameraOpen ? (
+            <button
+              className="primary-button full-width"
+              type="button"
+              onClick={openCamera}
+              disabled={isCameraLoading || isAnalyzing}
+            >
+              {isCameraLoading ? <span className="spinner" aria-hidden="true" /> : 'Open Camera'}
+              {isCameraLoading ? ' Opening camera...' : ''}
+            </button>
+          ) : (
+            <>
+              <div className="camera-box">
+                <video
+                  ref={videoRef}
+                  autoPlay
+                  playsInline
+                  muted
+                  className="camera-video"
+                />
+              </div>
 
-  <button
-    className="primary-button full-width"
-    type="button"
-    onClick={findManualBin}
-    disabled={isFindingManual}
-  >
-    {isFindingManual ? <span className="spinner" aria-hidden="true" /> : 'Find Nearest Bin'}
-    {isFindingManual ? ' Finding nearest bin...' : ''}
-  </button>
+              <div className="camera-actions">
+                <button
+                  className="primary-button"
+                  type="button"
+                  onClick={takePhoto}
+                  disabled={isAnalyzing}
+                >
+                  Take Photo
+                </button>
 
-  {manualError && (
-    <p className="error-message">
-      {manualError}
-    </p>
-  )}
+                <button
+                  className="ghost-button"
+                  type="button"
+                  onClick={stopCamera}
+                  disabled={isAnalyzing}
+                >
+                  Close Camera
+                </button>
+              </div>
+            </>
+          )}
 
-  {manualResult?.nearestPoint && (
-    <div className="result-grid manual-result-grid">
-      <article className="result-card highlight-card">
-        <p className="result-label">Nearest point</p>
-        <strong>
-          {manualResult.nearestPoint.name || manualResult.nearestPoint.address}
-        </strong>
-      </article>
+          <canvas ref={canvasRef} className="hidden-canvas" />
 
-      <article className="result-card">
-        <p className="result-label">Address</p>
-        <strong>{manualResult.nearestPoint.address}</strong>
-      </article>
+          <p className="camera-helper">
+            Live camera preview works on localhost or HTTPS. On mobile testing,
+            use “Take or Upload Photo”.
+          </p>
+        </section>
 
-      {manualResult.nearestPoint.lat && manualResult.nearestPoint.lng && (
-        <article className="result-card demo-banner-card">
-          <p className="result-label">Open in map</p>
-          <a
-            className="ghost-button"
-            href={`https://www.google.com/maps/search/?api=1&query=${manualResult.nearestPoint.lat},${manualResult.nearestPoint.lng}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Open Google Maps
-          </a>
-        </article>
-      )}
-    </div>
-  )}
-
-  {manualResult && !manualResult.nearestPoint && (
-    <p className="empty-result">
-      No matching recycling point found for this category yet.
-    </p>
-  )}
-</section>
-
-        <section className="card-surface reveal" id="results">
+        <section className="card-surface reveal results-section" id="results">
           <div className="section-heading">
             <div>
               <p className="eyebrow">Result</p>
@@ -624,7 +668,7 @@ function App() {
             </div>
 
             <span className={`status-badge ${result ? 'success' : ''}`}>
-              {result ? 'Backend result' : 'Waiting'}
+              {result ? 'Result ready' : 'Waiting'}
             </span>
           </div>
 
@@ -669,12 +713,17 @@ function App() {
                 <strong>{result.locationSource || 'Unknown'}</strong>
               </article>
 
-              {result.nearestPoint?.lat && result.nearestPoint?.lng && (
+              {result.nearestPoint?.address && (
                 <article className="result-card demo-banner-card">
                   <p className="result-label">Open in map</p>
                   <a
                     className="ghost-button"
-                    href={`https://www.google.com/maps/search/?api=1&query=${result.nearestPoint.lat},${result.nearestPoint.lng}`}
+                    href={
+                      result.nearestPoint.googleMapsUrl ||
+                      `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                        result.nearestPoint.address
+                      )}`
+                    }
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -700,7 +749,7 @@ function App() {
           ) : (
             <div className="empty-result">
               <p>
-                Upload an image or take a photo, then tap analyze. Your backend result will appear here.
+                Upload an image, then tap analyze. Your recommendation will appear here.
               </p>
             </div>
           )}
