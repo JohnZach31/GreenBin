@@ -32,6 +32,8 @@ backend/temp/*
 
 # Environment variables
 .env
+.env.local
+frontend/.env.local
 
 # OS / editor
 .DS_Store
