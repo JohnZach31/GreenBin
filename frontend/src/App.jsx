@@ -62,6 +62,7 @@ function App() {
 
   const [result, setResult] = useState(null)
   const [error, setError] = useState('')
+  const [recyclingQueue, setRecyclingQueue] = useState([])
 
   useEffect(() => {
     return () => {
@@ -243,6 +244,31 @@ function App() {
     }
   }
 
+  const createQueueId = () => {
+    return `${Date.now()}-${Math.random().toString(16).slice(2)}`
+  }
+
+  const getMapUrl = (point) => {
+    if (!point) return '#'
+
+    return (
+      point.googleMapsUrl ||
+      `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+        point.address
+      )}`
+    )
+  }
+
+  const removeQueueItem = (queueItemId) => {
+    setRecyclingQueue((currentQueue) =>
+      currentQueue.filter((item) => item.id !== queueItemId)
+    )
+  }
+
+  const clearQueue = () => {
+    setRecyclingQueue([])
+  }
+
   const analyzeImage = async () => {
     if (!selectedFile) {
       setError('Please upload or take a photo first.')
@@ -278,6 +304,20 @@ function App() {
         ...data,
         locationSource: location.source,
       })
+
+      setRecyclingQueue((currentQueue) => [
+        ...currentQueue,
+        {
+          id: createQueueId(),
+          imageName: selectedFile.name,
+          displayname: data.displayname || data.rawLabel || 'Unknown item',
+          category: data.category,
+          bin: data.bin,
+          confidence: data.confidence,
+          nearestPoint: data.nearestPoint,
+          locationSource: location.source,
+        },
+      ])
 
       setProcessStatus('Process done')
     } catch (err) {
@@ -340,6 +380,7 @@ function App() {
         <nav className="nav-links" aria-label="Primary navigation">
           <a href="#upload">Upload</a>
           <a href="#analyze">Analyze</a>
+          <a href="#queue">Queue</a>
           <a href="#manual">Manual</a>
           <a href="#camera">Camera</a>
           <a href="#results">Results</a>
@@ -363,7 +404,7 @@ function App() {
 
           <aside className="hero-metrics" aria-label="Highlights">
             <article className="metric-card">AI<span>Hugging Face model</span></article>
-            <article className="metric-card">532<span>Parsed city points</span></article>
+            <article className="metric-card">632<span>Multi-city demo points</span></article>
             <article className="metric-card">IL<span>Israel bin guidance</span></article>
           </aside>
         </section>
@@ -507,6 +548,89 @@ function App() {
           </article>
         </section>
 
+        <section className="card-surface reveal queue-card" id="queue">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">Recycling queue</p>
+              <h2>Build a recycling plan from multiple photos</h2>
+            </div>
+
+            <span className="status-badge">
+              {recyclingQueue.length} item{recyclingQueue.length === 1 ? '' : 's'}
+            </span>
+          </div>
+
+          {recyclingQueue.length > 0 ? (
+            <>
+              <div className="queue-actions">
+                <p className="queue-helper">
+                  Analyze several waste photos and GreenBin will keep them as a sorted recycling plan.
+                </p>
+
+                <button className="ghost-button" type="button" onClick={clearQueue}>
+                  Clear queue
+                </button>
+              </div>
+
+              <div className="queue-list">
+                {recyclingQueue.map((item, index) => (
+                  <article className="queue-item" key={item.id}>
+                    <div className="queue-index">{index + 1}</div>
+
+                    <div className="queue-content">
+                      <strong>{item.displayname}</strong>
+                      <span>{item.imageName}</span>
+
+                      <div className="queue-pills">
+                        <span>{item.category}</span>
+                        <span>{item.bin}</span>
+                        <span>
+                          {item.confidence
+                            ? `${Math.round(Number(item.confidence) * 100)}% confidence`
+                            : 'Confidence unavailable'}
+                        </span>
+                      </div>
+
+                      {item.nearestPoint?.address && (
+                        <p className="queue-address">
+                          Nearest point: {item.nearestPoint.address}
+                        </p>
+                      )}
+                    </div>
+
+                    <div className="queue-buttons">
+                      {item.nearestPoint?.address && (
+                        <a
+                          className="ghost-button"
+                          href={getMapUrl(item.nearestPoint)}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Open Maps
+                        </a>
+                      )}
+
+                      <button
+                        className="ghost-button danger-ghost"
+                        type="button"
+                        onClick={() => removeQueueItem(item.id)}
+                      >
+                        Remove
+                      </button>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </>
+          ) : (
+            <div className="empty-result">
+              <p>
+                Your queue is empty. Analyze an image and it will be added here automatically.
+              </p>
+            </div>
+          )}
+        </section>
+
         <section className="card-surface reveal manual-card" id="manual">
           <div className="section-heading">
             <div>
@@ -574,12 +698,7 @@ function App() {
                 <p className="result-label">Open in map</p>
                 <a
                   className="ghost-button"
-                  href={
-                    manualResult.nearestPoint.googleMapsUrl ||
-                    `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-                      manualResult.nearestPoint.address
-                    )}`
-                  }
+                  href={getMapUrl(manualResult.nearestPoint)}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -718,12 +837,7 @@ function App() {
                   <p className="result-label">Open in map</p>
                   <a
                     className="ghost-button"
-                    href={
-                      result.nearestPoint.googleMapsUrl ||
-                      `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-                        result.nearestPoint.address
-                      )}`
-                    }
+                    href={getMapUrl(result.nearestPoint)}
                     target="_blank"
                     rel="noreferrer"
                   >
