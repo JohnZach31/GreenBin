@@ -1,0 +1,5322 @@
+[
+  {
+    "id": "rishon-plastic-packaging-001",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "אברמוביץ",
+    "address": "אהרון וברוך 6, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-002",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "זכרון שרה 21, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-003",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "חביבה רייך 6 פינת אנה פראנק, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-004",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "חנה רובינא 22, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-005",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "חנה רובינא פינת כהנסקי, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-006",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "לאה רבין 9, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-007",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "עליזה בגין פינת חביבה רייך, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-008",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "המעיין 8, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-009",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "איינשטיין פינת הפרדס הראשון, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-010",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "ארלוזורב פינת ברגר, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-011",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "גולומב פינת ארלוזורוב, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-012",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "גרץ 8, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-013",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "דובנוב 5, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-014",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "השחר פינת בורוכוב, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-015",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "השחר פינת גרץ, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-016",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "השחר פינת מנחם בגין, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-017",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "קפלן פינת כצנלסון, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-018",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "מישור הנוף",
+    "address": "גיבשטיין 13, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-019",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "מישור הנוף",
+    "address": "גיבשטיין 48, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-020",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "מישור הנוף",
+    "address": "יעקב חזן פינת מרדכי רגב, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-021",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "מישור הנוף",
+    "address": "שלמה העיראקי 37, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-022",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "מישור הנוף",
+    "address": "שלמה העיראקי 32, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-023",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "מישור הנוף",
+    "address": "פיינשטיין 25, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-024",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "מישור הנוף",
+    "address": "ראם 9, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-025",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "מישור הנוף",
+    "address": "הפלמ\"ח 55, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-026",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נאות שקמה",
+    "address": "מרטין בובר 33 גינה ציבורית, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-027",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נאות שקמה",
+    "address": "השירה העברית פינת גדולי ישראל, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-028",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נווה דקלים",
+    "address": "חלוצים פינת יונתן, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-029",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נווה דקלים",
+    "address": "חלוצים פינת נוב, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-030",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נווה דקלים",
+    "address": "חלוצים פינת מבוא חמה, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-031",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נווה דקלים",
+    "address": "נווה דקלים 53 פינת נחל ים, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-032",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נווה דקלים",
+    "address": "נווה דקלים פינת די הזהב, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-033",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "מבצע נועה 14, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-034",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נווה ים",
+    "address": "הדייגים 10, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-035",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נווה ים",
+    "address": "האלמוגים 11, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-036",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נווה ים",
+    "address": "ה' באייר, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-037",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נוריות",
+    "address": "חיה רוזנטל 1, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-038",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נוריות",
+    "address": "חיה רוזנטל 3, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-039",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נוריות",
+    "address": "חיה רוזנטל 5, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-040",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "נרקיסים",
+    "address": "חילות 3, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-041",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "הנרי ברגנסון 4 - גינה ציבורית, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-042",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "בנאסרף 30, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-043",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "מורי גלימן 25, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-044",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "גוסטב הרץ פינת איזדור, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-045",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "מיכאל לוין פינת אולגה ויהושוע, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-046",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "השומר 40 פינת בקרמן, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-047",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "רמז",
+    "address": "הארבל 35, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-048",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "רמז",
+    "address": "הבן הראשון פינת גלעד, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-049",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "רמז",
+    "address": "החרמון 38, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-050",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "רמז",
+    "address": "ויניק פינת גור, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-051",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "רמז",
+    "address": "יוסף רויז 34, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-052",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "רמז",
+    "address": "רמז פינת הר ציון, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-053",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "ברק 4, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-054",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "גדעון 1, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-055",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הדודאים 2, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-056",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "החבצלת 25, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-057",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "נחמיה פינת מלכי, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-058",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "החצב פינת האגוז, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-059",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "החצב פינת האקליפטוס, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-060",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "החצב פינת הלילך, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-061",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הכרכום פינת הרקפת, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-062",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "המהרל מפראג פינת כלניות, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-063",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הנוטרים 14, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-064",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הפרח 120, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-065",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הצבר פינת האפרסק, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-066",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הר סיני 22, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-067",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הר סיני פינת רבי עקיבא, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-068",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הרקפת 105, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-069",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הרקפת 93, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-070",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "יהודה הנשיא פינת משה בן נחמן, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-071",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "מורדי הגטאות 113, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-072",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "מורדי הגטאות פינת האורן, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-073",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "מורדי הגטאות פינת הפרח, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-074",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "נחמיה 7 פינת יחזקאל, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-075",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "נחמיה פינת פינת הרקפת 131, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-076",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "עזרא 48, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-077",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "רבי מאיר 2, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-078",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שד' יעקב 16 פינת ההדס, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-079",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שד' יעקב 40 פינת הרקפת, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-080",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שד' יעקב 51 מגדלי העיר, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-plastic-packaging-081",
+    "city": "rishon_lezion",
+    "category": "plastic_packaging",
+    "bin": "orange",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שד' יעקב 67, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-001",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "אברמוביץ",
+    "address": "בית\"ר 12-ברחבה, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-002",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "אברמוביץ",
+    "address": "פרישמן 1, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-003",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "אברמוביץ",
+    "address": "אוסישקין 10, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-004",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "אברמוביץ",
+    "address": "האורנים, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-005",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "אברמוביץ",
+    "address": "אהרון וברוך 6, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-006",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "אברמוביץ",
+    "address": "אמיל זולא פינת גרוזברג, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-007",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "נורדאו 101, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-008",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "הכרמל 20, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-009",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "נורדאו 52, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-010",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "סמילנסקי פינת בר אילן, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-011",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "סמילנסקי 40- אחוזת עד 120, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-012",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "סמילנסקי 27, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-013",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "מאירוביץ 40 בית כנסת, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-014",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "בן גוריון בסוף-חניון הקאנטרי, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-015",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "חביבה רייך 1 פינת אנה פרנק, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-016",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "בורוכוב פינת השחר, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-017",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "נולומב 4, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-018",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "המעיין פינת בן גוריון, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-019",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "כצנלסון 43, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-020",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "דבורה ברון 7, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-021",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "מינה יוסף 10, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-022",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "התקווה 11, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-023",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "השחר פינת מנחם בגין, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-024",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "גרץ 11, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-025",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "דובנוב גן ציבורי-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-026",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "הפרדס הראשון 5, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-027",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "כצנלסון 52 ראשון לציון",
+    "description": "מתקן מיחזור נייד לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-028",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "כצנלסון 53 ראשון לציון",
+    "description": "מתקן מיחזור נייד לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-029",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כרמים, קריית הלאום",
+    "address": "הבוצרים 21, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-030",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "כרמים, קריית הלאום",
+    "address": "הסמדר 1, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-031",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "מישור הנוף",
+    "address": "גיבשטיין 48, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-032",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "מרום ראשון",
+    "address": "ההתיישבות 55, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-033",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נאות שקמה",
+    "address": "גדולי ישראל פינת השירה העברית, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-034",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נאות שקמה",
+    "address": "אורי צבי 13, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-035",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נאות שקמה",
+    "address": "המשוררת רחל 1 פינת אבא קובנר, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-036",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נאות שקמה",
+    "address": "הרב נרייה פינת הרבי מילובביץ, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-037",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נאות שקמה",
+    "address": "מרטין בובר 33, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-038",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נאות שקמה",
+    "address": "המשוררת רחל פינת הרבי מילובביץ, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-039",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה דקלים",
+    "address": "נווה דקלים פינת ניר אברהם, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-040",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה דקלים",
+    "address": "נווה דקלים פינת פרי גן-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-041",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה דקלים",
+    "address": "נוב 3-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-042",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה דקלים",
+    "address": "החלוצים פינת נחל ים, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-043",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה דקלים",
+    "address": "החלוצים פינת מרום גולן, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-044",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה דקלים",
+    "address": "נווה דקלים פינת מבוא חמה, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-045",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה דקלים",
+    "address": "נווה דקלים פינת שדות, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-046",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה דקלים",
+    "address": "נווה דקלים, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-047",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה דקלים",
+    "address": "החלוצים פינת יהונתן, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-048",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה הדרים",
+    "address": "הקוקיה, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-049",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה הדרים",
+    "address": "ברנשטיין 27, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-050",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה הלל",
+    "address": "התבור פינת רמז, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-051",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה הלל",
+    "address": "החרמון 21, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-052",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה הלל",
+    "address": "הר ציון פינת רמז, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-053",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה הלל",
+    "address": "השומרון 4, ראשון לציון",
+    "description": "מתקן מיחזור נייד לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-054",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "מבצע נועה 4, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-055",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "שושן הבירה-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-056",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "ארגמן 16 סניף הדואר-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-057",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "זלמן שזר 34-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-058",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה ים",
+    "address": "מבצע משה 1 פינת פנינת הים, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-059",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה ים",
+    "address": "הדייגים 10-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-060",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה ים",
+    "address": "האלמוגים 11 (מול), ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-061",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה ים",
+    "address": "הנחשול 11 פינת הדיונון, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-062",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה ים",
+    "address": "הנחשול פינת הדוגית-מ. פלסטיק, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-063",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה ים",
+    "address": "הנחשול 32-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-064",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה ים",
+    "address": "ה באייר פינת מבצע חורב-גן ציבורי, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-065",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה ים",
+    "address": "מבצע הראל פינת ה באייר-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-066",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה ים",
+    "address": "מבצע משה פינת המלחים, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-067",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה ים",
+    "address": "מבצע משה פינת לשם, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-068",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נווה ים",
+    "address": "מבצע משה פינת שוהם, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-069",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "הבנים פינת המושבה, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-070",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "הרב צאלח 5-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-071",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "התמר 15, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-072",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "אלי כהן 1-מרכז מסחרי, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-073",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "אהרון אוזן פינת העצמאות, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-074",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "העצמאות 44, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-075",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "העינב 18, ראשון לציון",
+    "description": "מתקן מיחזור נייד לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-076",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "המייסדים 10 פינת הברושים, ראשון לציון",
+    "description": "מתקן מיחזור נייד לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-077",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "הברושים 30 פינת האפרסמון 2, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-078",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "ההדר 23, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-079",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "הלימון פינת העינב, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-080",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "לוז פינת התפוז, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-081",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "האגס פינת משה צאלח, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-082",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "לוז 35, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-083",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "שבזי 1, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-084",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נחלת יהודה",
+    "address": "צבי גנות 6, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-085",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "נרקיסים",
+    "address": "הצבר 9, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-086",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קדמת ראשון, שכונת נעורים",
+    "address": "תנועת הנוער 36, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-087",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית גנים",
+    "address": "שדמות דבורה 8-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-088",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית גנים",
+    "address": "שער הגולן 27-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-089",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית גנים",
+    "address": "חומה ומגדל ביציאה מהשכונה-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-090",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "שמעון פרס 33 מרכז מסחרי-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-091",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "מילטון פרידמן 8, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-092",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "ברנרד כץ 21, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-093",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "בן אסרף-גינה ציבורית, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-094",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "סול בלו 28-מרכז מסחרי מאחור, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-095",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "הנרי ברגסון 19-פינת פסטרנק, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-096",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "גוסטב הרץ פינת רבי איזדור, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-097",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "איזדור רבי 14 פינת ריצארד פינמן, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-098",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "מורי גלמן 25, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-099",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "לנדארו לב דבידוביץ-15 גינה ציבורית, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-100",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "פול סמואלסון פינת קנט גוזף ארו, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-101",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "פסטרנק 13, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-102",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית ראשון",
+    "address": "הזהבית 14-החלמונית מאחור, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-103",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קריית ראשון",
+    "address": "החרצית 6, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-104",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קרית שמחה",
+    "address": "שלמה העיראקי 33, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-105",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "קרית שמחה",
+    "address": "שלמה העיראקי 16, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-106",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "ירושלים 97-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-107",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "מיכאל לוין פינת אולגה ויהושוע, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-108",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "קאליב 1, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-109",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "האחד עשר 33, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-110",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "שמעון אבידן 14, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-111",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "משואות יצחק 5, ראשון לציון",
+    "description": "מתקן מיחזור לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-112",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמב\"ם",
+    "address": "יהודה הלוי 6-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-113",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמב\"ם",
+    "address": "צ\"ג בנות 7-גן ציבורי, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-114",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמב\"ם",
+    "address": "צבי פרנק פינת בלבן, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-115",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "ראם 17, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-116",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "בלקינד 60-מול, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-117",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "הפלמ\"ח פינת בן אפריים בכיכר, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-118",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "צ'רנוב 1, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-119",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "בלקינד 22, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-120",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "בקרמן פינת השומר, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-121",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "הפלמ\"ח (מול מספר 55)-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-122",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "גן יודלביץ גינה ציבורית, ראשון לציון",
+    "description": "מתקן מיחזור נייד לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-123",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמז",
+    "address": "הגלעד פינת הבשן, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-124",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמז",
+    "address": "ויניק 37-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-125",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמז",
+    "address": "דרובין 16-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-126",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמז",
+    "address": "ויניק 47 פינת גור, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-127",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמז",
+    "address": "יצחק שדה 5-ברחבה, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-128",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמז",
+    "address": "ויניק 47 פינת גור, ראשון לציון",
+    "description": "מתקן מיחזור נייד לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-129",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמת אליהו",
+    "address": "שמואל הנביא פינת שלמה המלך, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-130",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמת אליהו",
+    "address": "אנלביץ 31-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-131",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמת אליהו",
+    "address": "משורר השואה פינת הרב נורוק, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-132",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמת אליהו",
+    "address": "אנילביץ 4 פינת יעקב כהן, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-133",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמת אליהו",
+    "address": "זלמן שניאור 8, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-134",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "רמת אליהו",
+    "address": "דוד המלך 54, ראשון לציון",
+    "description": "מתקן מיחזור לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-135",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "מורדי הגטאות 2 פינת הפרח, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-136",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שדרת יעקב 50 מגדלי העיר, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-137",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "עזרא מספר 55 מ.מחזור, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-138",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "נחמיה פינת הרקפת, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-139",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הרקפת 8 פינת הכרכום, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-140",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הפרח 120, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-141",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "האגוז פינת החצב-מול בית הכנסת, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-142",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הנוטרים 14 פינת האורן, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-143",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שדרות יעקב פינת נחמיה-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-144",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "מורדי הגטאות 58, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-145",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "מורדי הגטאות 105, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-146",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "ההדס פינת שדרות יעקב, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-147",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שבטי ישראל 50, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-148",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שדרות יעקוב 40-פינת הרקפת, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-149",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "יחזקאל- בכיכר, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-150",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "נחמיה פינת גדעון-, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-151",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שבטי ישראל 21, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-152",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "החצב פינת הלילך, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-153",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "נחמיה פינת מלאכי, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-154",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "רבי מאיר פינת רבי עקיבא, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-155",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "צמרות-החצב פינת האקליפטוס, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-156",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "צמרות-האפרסק 13 פינת הדובדבן, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-157",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הרקפת 105, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-158",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הצבר 26 פינת האקליפטוס, ראשון לציון",
+    "description": "מתקן מיחזור נייד לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-159",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הפיקוס 13, ראשון לציון",
+    "description": "מתקן מיחזור נייד לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-160",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "החצב 64, ראשון לציון",
+    "description": "מתקן מיחזור נייד לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-161",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הלילך פינת הרקפת, ראשון לציון",
+    "description": "מתקן מיחזור נייד לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-162",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הנוטרים פינת האלה, ראשון לציון",
+    "description": "מתקן מיחזור נייד לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-163",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "עזרא 17, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-paper-164",
+    "city": "rishon_lezion",
+    "category": "paper",
+    "bin": "blue",
+    "neighborhood": "שיכוני המזרח",
+    "address": "המהר\"ל מפראג, שער 3 בית העלמין, ראשון לציון",
+    "description": "מתקן מיחזור שכונתי לנייר",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-001",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "אברמוביץ",
+    "address": "הרצל 88, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-002",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "אברמוביץ",
+    "address": "אושיסקין 8, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-003",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "אברמוביץ",
+    "address": "קרל נטר 26, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-004",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "אברמוביץ",
+    "address": "ביתר 12, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-005",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "אברמוביץ",
+    "address": "ביאליק 20, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-006",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "אברמוביץ",
+    "address": "ביאליק 18, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-007",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "אברמוביץ",
+    "address": "קרל נטר 26, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-008",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "הפלמ\"ח מיספר 55 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-009",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "שמשון זליג 3, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-010",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "סוקולוב פינת סמילנסקי ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-011",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "אבי האסירים פינת תמר אבן, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-012",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "חלום ראשון",
+    "address": "רבי משה בן נחמן,, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-013",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "המעיין פינת בן גוריון ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-014",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "הפרדס הראשון 35, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-015",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "התקוה 11 פינת קרית ספר ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-016",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "כהנסקי פינת חנה רובינא, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-017",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "דובנוב 5, גן לשם, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-018",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "קרית ספר 11, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-019",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "הפרדס הראשון 35, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-020",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כרמים, קריית הלאום",
+    "address": "הסמדר 1 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-021",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כרמים, קריית הלאום",
+    "address": "הסוכה פינת השומרה, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-022",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כרמים, קריית הלאום",
+    "address": "הזמורה פינת היקב ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-023",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כרמים, קריית הלאום",
+    "address": "האלוף דוד 9,, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-024",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כרמים, קריית הלאום",
+    "address": "ישראל גלילי 7, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-025",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כרמים, קריית הלאום",
+    "address": "הזמורה פינת היקב, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-026",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כרמים, קריית הלאום",
+    "address": "הזמורה 2, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-027",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "כרמים, קריית הלאום",
+    "address": "הסמדר 1, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-028",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "מישור הנוף",
+    "address": "עיראקי 16 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-029",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "מישור הנוף",
+    "address": "פיינשטיין, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-030",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "מישור הנוף",
+    "address": "ראם פינת עראקי, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-031",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נאות אשלים",
+    "address": "התזמורת 52 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-032",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נאות אשלים",
+    "address": "התזמורת 20 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-033",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נאות שקמה",
+    "address": "גדולי ישראל פינת השירה העברית בכיכר ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-034",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נאות שקמה",
+    "address": "הרב נריה פינת מורשת ישראל ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-035",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נאות שקמה",
+    "address": "הנגיד פינת תור הזהב, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-036",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נאות שקמה",
+    "address": "הרב גורן פינת מורשת ישראל, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-037",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נאות שקמה",
+    "address": "הרב נרייה 2, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-038",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה אליהו",
+    "address": "אבא הילל סילבר מספר 5 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-039",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה אליהו",
+    "address": "אנילביץ פינת יעקב כהן ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-040",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה דקלים",
+    "address": "החלוצים פינת קשת ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-041",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה דקלים",
+    "address": "נווה דקלים פינת די זהב ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-042",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה דקלים",
+    "address": "נווה דקלים, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-043",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה הדרים",
+    "address": "הקוקיה 3, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-044",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה הדרים",
+    "address": "מתקן מחזור זכוכית - ברנשטיין 27, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-045",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה הלל",
+    "address": "רויז פינת השומרון, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-046",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "חיל הצנחנים 14 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-047",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "זלמן שז\"ר 39 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-048",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "אח\"י להב 3,, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-049",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "חיל הצנחנים 14, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-050",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה ים",
+    "address": "ה' באייר 36 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-051",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה ים",
+    "address": "הדייגים 10 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-052",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה ים",
+    "address": "אבן חן 2 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-053",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נווה ים",
+    "address": "הדייגים 10, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-054",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "אלי כהן 4, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-055",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "העצמאות 46 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-056",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "השניים 1, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-057",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "ניסים מלל 9, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-058",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "העינב 35, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-059",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "מרים בן פורת 1, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-060",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "הבנים פינת המושבה, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-061",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "הלימון פינת העינב, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-062",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "ניסים מלל פינת עדה, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-063",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "ההדר 23, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-064",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "לוז 35, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-065",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "צמיר אלימלך פינת יפה ירקוני, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-066",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "צמיר אלימלך פינת זוסמן, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-067",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "מעפילי אקסודוס, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-068",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נחלת יהודה",
+    "address": "שבזי 1, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-069",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נרקיסים",
+    "address": "שער יפו 9, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-070",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נרקיסים",
+    "address": "בית הספר נרקיסים, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-071",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נרקיסים",
+    "address": "הרמט\"כלים 4, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-072",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נרקיסים",
+    "address": "שלמה הלוי גן שלמה שושן, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-073",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נרקיסים",
+    "address": "הבה\"דים 1, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-074",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נרקיסים",
+    "address": "החיילות 2 גן ציבורי, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-075",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נרקיסים",
+    "address": "הצבר 54 בית ספר שיבולים, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-076",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נרקיסים",
+    "address": "הלוחמות גן ציבורי, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-077",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "נרקיסים",
+    "address": "ההדרכה 7 גן ציבורי, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-078",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "צוריאל",
+    "address": "ההתישבות 22 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-079",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "צוריאל",
+    "address": "ההיתישבות מספר 8, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-080",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "צוריאל",
+    "address": "רפפורט פינת האחד עשר ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-081",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "צוריאל",
+    "address": "ההתיישבות 55, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-082",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קדמת ראשון, שכונת נעורים",
+    "address": "פופל 6, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-083",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קדמת ראשון, שכונת נעורים",
+    "address": "פופל 15, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-084",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קדמת ראשון, שכונת נעורים",
+    "address": "הצופים 2, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-085",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קדמת ראשון, שכונת נעורים",
+    "address": "תנועות הנוער 1, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-086",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית גנים",
+    "address": "שדמות דבורה 8 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-087",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית גנים",
+    "address": "שער הגולן 27 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-088",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית גנים",
+    "address": "חומה ומיגדל פינת מחניים ביציאה מהשכונה ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-089",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית גנים",
+    "address": "נגבה פינת גשר, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-090",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית גנים",
+    "address": "אושה אולם ספורט, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-091",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית גנים",
+    "address": "בית הערבה גן ציבורי, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-092",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית גנים",
+    "address": "גינוסר 13, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-093",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית גנים",
+    "address": "הגשר 7, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-094",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית גנים",
+    "address": "גאולים 4, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-095",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "שמעון פרס 33, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-096",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "מעגל השלום 31, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-097",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "מעגל השלום 1, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-098",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "מעגל השלום 11, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-099",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "בנאסרף 31, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-100",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית ראשון",
+    "address": "הסיגלית 1-3 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-101",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית ראשון",
+    "address": "גולדה מאיר פינת הסיתוונית 3, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-102",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית ראשון",
+    "address": "הסיגלית 1, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-103",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קריית ראשון",
+    "address": "החרצית 6, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-104",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "קרית שמחה",
+    "address": "עיראקי 35 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-105",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "ראשונים",
+    "address": "סמילנסקי פינת בר אילן ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-106",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "ראשונים",
+    "address": "סמילנסקי פינת בר אילן, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-107",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "ראשונים",
+    "address": "אבי האסירים, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-108",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "ראשונים",
+    "address": "מאירוביץ 54, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-109",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "האחד עשר 31 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-110",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "ירושלים 97, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-111",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "משואות יצחק 2, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-112",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "מיכאל לוין פינת אולגה ויהושוע, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-113",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמב\"ם",
+    "address": "אברבנל 6, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-114",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמב\"ם",
+    "address": "אלקלעי 30, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-115",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "השומר פינת בקרמן ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-116",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "בלקינד 60 פינת הפלמ\"ח ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-117",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "הפלמ\"ח פינת חיים בן אפרים 1 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-118",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "מרגולין 11, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-119",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמז",
+    "address": "דרובין 35 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-120",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמז",
+    "address": "ויניק 37 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-121",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמז",
+    "address": "דרובין 16 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-122",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמז",
+    "address": "רמז 2, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-123",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמז",
+    "address": "עולי הגרדום 71 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-124",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמז",
+    "address": "הבן הראשון 3, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-125",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמז",
+    "address": "יוסף רויז פינת ארבל, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-126",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמת אליהו",
+    "address": "זלמן שניאור 21, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-127",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רמת אליהו",
+    "address": "אנילביץ 4, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-128",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "רקפות",
+    "address": "מתקן מחזור זכוכית - רבי עקיבא פינת הר סיני, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-129",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "החצב פינת החרוב, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-130",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שד\" יעקב פינת נחמיה ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-131",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "מורדי הגיטאות 58 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-132",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "עזרא 55 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-133",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "עקיבא פינת נחמיה מוטא, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-134",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "המהר\"ל מפראג, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-135",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שבטי ישראל 53, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-136",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הכרכום פינת הרקפת 8, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-137",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "מורדי הגטאות 30 פינת הפרח, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-138",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "רבי עקיבא פינת הר סיני, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-139",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שדרות יעקב 40 פינת הרקפת, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-140",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שדרות יעקב פינת ההדס, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-141",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הנוטרים 14 פינת האורן, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-142",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "עזרא 17, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-143",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "מאיר אבנר 3, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-144",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "חבצלת גן חבצלת, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-145",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הדודאים 3, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-glass-146",
+    "city": "rishon_lezion",
+    "category": "glass",
+    "bin": "purple",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הרקפת 95 בית כנסת, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-001",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמת אליהו",
+    "address": "אבא הילל סילבר 4 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-002",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "אבי האסירים פינת תמר אבן ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-003",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "אברמוביץ",
+    "address": "אוסישקין 31, ראשון סנטר ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-004",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "קריית גנים",
+    "address": "אושה 4 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-005",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נחלת יהודה",
+    "address": "אלי כהן,, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-006",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמב\"ם",
+    "address": "אליעזר בלבן ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-007",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמת אליהו",
+    "address": "אנילביץ 12 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-008",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמת אליהו",
+    "address": "אנילביץ 31 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-009",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמת אליהו",
+    "address": "אנילביץ פינת חנה סנש ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-010",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נווה הלל",
+    "address": "ארבל 1 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-011",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "אברמוביץ",
+    "address": "בית\"ר 12 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-012",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "בלקינד 60 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-013",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "בן אסרף 31 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-014",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "קרית שמחה",
+    "address": "בן אפריים 6 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-015",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "בקרמן פינת השומר ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-016",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נאות שקמה",
+    "address": "גדולי ישראל פינת הרב קאפח ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-017",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "גוסטב הרץ פינת רבי איזידור ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-018",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "גורדון 16 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-019",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "גרץ 15 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-020",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמז",
+    "address": "דרובין 16 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-021",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "האחד עשר 23 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-022",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמת אליהו",
+    "address": "האלמוגים 24 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-023",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "צמרות",
+    "address": "האפרסק 13 פינת הדובדבן ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-024",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "הארגמן 16 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-025",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נחלת יהודה",
+    "address": "הבנים פינת פינסקר ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-026",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "אברמוביץ",
+    "address": "הברון הירש פינת הרצל ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-027",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמת אליהו",
+    "address": "הדייגים 10 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-028",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נווה דקלים",
+    "address": "החלוצים פינת מבוא חמה ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-029",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נווה דקלים",
+    "address": "החלוצים פינת נחל נמרוד ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-030",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "צמרות",
+    "address": "החצב 54 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-031",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "צמרות",
+    "address": "החצב פינת האקליפטוס ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-032",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "הכרמל 20 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-033",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "המעיין פינת בן גוריון ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-034",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נאות שקמה",
+    "address": "המשוררת רחל פינת אלתרמן ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-035",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הנוטרים פינת התפוח ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-036",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמת אליהו",
+    "address": "הנחשול 11 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-037",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמת אליהו",
+    "address": "הנחשול פינת הדוגית ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-038",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "כרמים, קריית הלאום",
+    "address": "הסמדר 1 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-039",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נחלת יהודה",
+    "address": "העצמאות פינת אוזן אהרון ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-040",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "הפלמ\"ח פינת נווה ציון ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-041",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "הפרדס הראשון 5 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-042",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הרקפת 8 פינת הכרכם ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-043",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "שיכוני המזרח",
+    "address": "הרקפת פינת החרוב ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-044",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "השחר פינת מנחם בגין ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-045",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נווה הדרים",
+    "address": "התור 1 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-046",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמז",
+    "address": "ויניק 37 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-047",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "זלמן שז\"ר 34 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-048",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "קריית גנים",
+    "address": "חומה ומגדל, ביציאה מהשכונה ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-049",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "חיל רגלים 1 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-050",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "חנה ומיכאל לוין פינת אולגה ויהושע ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-051",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "מישור הנוף",
+    "address": "חסד ואמת פינת יעקב חזן ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-052",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "טיומקין 18,, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-053",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמב\"ם",
+    "address": "יוחנן הסנדלר פינת יהודה רגוניס ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-054",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "שיכוני המזרח",
+    "address": "יחזקאל הנביא בכיכר, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-055",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "ירושלים 97 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-056",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "מאירוביץ 17 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-057",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמת אליהו",
+    "address": "מבצע הראל פינת ה באייר ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-058",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמת אליהו",
+    "address": "מבצע משה 1 פינת פנינת הים ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-059",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמת אליהו",
+    "address": "מבצע משה פינת מבצע עובדה ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-060",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "מבצע נועה בכיכר ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-061",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמב\"ם",
+    "address": "מולכו פינת ירושלים 31 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-062",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "שיכוני המזרח",
+    "address": "מורדי הגטאות 58 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-063",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "מנחם בגין,, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-064",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "משואות יצחק 5 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-065",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמת אליהו",
+    "address": "משורר השואה פינת הרב נורוק ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-066",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "קריית גנים",
+    "address": "נגבה 33 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-067",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נווה דקלים",
+    "address": "נוב 3, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-068",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נווה דקלים",
+    "address": "נווה דקלים, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-069",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "נווה דקלים",
+    "address": "נווה דקלים פינת די זהב ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-070",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "נורדאו 52 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-071",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "נורדאו 84 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-072",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "גן נחום, ראשונים, האירוס",
+    "address": "נורדאו פינת קרלן פרץ ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-073",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמז",
+    "address": "נחל שורק בחורשה ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-074",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "שיכוני המזרח",
+    "address": "נחמיה פינת גדעון ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-075",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "שיכוני המזרח",
+    "address": "נחמיה פינת הרקפת ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-076",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "שיכוני המזרח",
+    "address": "נחמיה פינת מלאכי ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-077",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "שיכוני המזרח",
+    "address": "עזרא 5 פינת דארבלה ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-078",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "פול ברגסון 19 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-079",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "פולה בן גוריון ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-080",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "רא\"ם 7 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-081",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "שיכוני המזרח",
+    "address": "רבי משה בן נחמן ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-082",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "קריית גנים",
+    "address": "שדמות דבורה 8 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-083",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שדרות יעקב 40 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-084",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שדרות יעקב 50 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-085",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שדרות יעקב פינת נחמיה ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-086",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "שמעון פרס 33,, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-087",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "קריית גנים",
+    "address": "שער הגולן 27 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-088",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "שרירא שמואל פינת אביעזר ילין ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-textile-089",
+    "city": "rishon_lezion",
+    "category": "textile",
+    "bin": "textile",
+    "neighborhood": "קדמת ראשון, שכונת נעורים",
+    "address": "תנועות הנוער 36 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-001",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "האירוס",
+    "address": "שמשון זליג 5, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-002",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "כלניות",
+    "address": "עקיבא פינת נחמיה מוטא, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-003",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "כפר אריה",
+    "address": "רבי עקיבא פינת הר סיני, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-004",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "סוףבן גוריון ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-005",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "כצנלסון, בנות חיל",
+    "address": "שדרות מנחם בגין פינת ז'בוטינסקי ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-006",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "כרמים, קריית הלאום",
+    "address": "השומרה פינת הסוכה ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-007",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "מבת מערב",
+    "address": "משה דיין מיתחם G ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-008",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "מרום ראשון",
+    "address": "ההתיישבות 55 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-009",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "מרכז העיר",
+    "address": "ז'בוטינסקי 16 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-010",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "נאות אשלים",
+    "address": "התזמורת 20 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-011",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "נאות שקמה",
+    "address": "גדולי ישראל פינת השירה העברית ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-012",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "נווה דקלים",
+    "address": "נווה דקלים 42, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-013",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "נווה הדרים",
+    "address": "התור פינת החוחית ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-014",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "נווה הלל",
+    "address": "יוסף רוייז פינת ארבל ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-015",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "חיל הצנחנים 14 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-016",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "נווה ים",
+    "address": "הדיגיים פינת הנחשול ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-017",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "נחלת יהודה",
+    "address": "העצמאות 46, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-018",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "קדמת ראשון, שכונת נעורים",
+    "address": "יואל סגל פינת נעורים ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-019",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "קריית גנים",
+    "address": "נגבה פינת שדה נחום ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-020",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "אלי ויזל ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-021",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "קריית חתני פרס נובל",
+    "address": "שמעון פרס פינת משעול הכימיה ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-022",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "קריית ראשון",
+    "address": "ישראל גלילי 5 בית המשפט ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-023",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "קריית ראשון",
+    "address": "גולדה מאיר פינת החלמונית 2, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-024",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "קרית שמחה",
+    "address": "שלמה עיראקי 16 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-025",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "ראשונים",
+    "address": "הפלמ\"ח פינת דוד פייס 57 בצמוד לגן, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-026",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "האחד עשר 31 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-027",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "ירושלים 97 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-028",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "רמב\"ם",
+    "address": "יהודה הלוי 40 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-029",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "רמז",
+    "address": "רמז 2 פינת רוטשילד ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-030",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "רמז",
+    "address": "דרובין פינת ברניצקי ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-031",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "רמת אליהו",
+    "address": "זלמן שניאור 19 ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-electronic-waste-032",
+    "city": "rishon_lezion",
+    "category": "electronic_waste",
+    "bin": "electronic_waste",
+    "neighborhood": "שיכוני המזרח",
+    "address": "שדרות יעקב פינת מורדי הגטאות ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-001",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "רקפות",
+    "address": "אריק איינשטיין 22-24, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-002",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "רקפות",
+    "address": "יעקב בן סירה 9, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-003",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "רקפות",
+    "address": "רבי עקיבא 29, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-004",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "רקפות",
+    "address": "רבי מאיר פינת רבי עקיבא, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-005",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "מישור הנוף",
+    "address": "עמנואלה בן יעקב 10, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-006",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "מישור הנוף",
+    "address": "רבי משה בן מימון 1, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-007",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "האירוס",
+    "address": "שמשון זליג פינת עיינות, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-008",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "רמב\"ם, השומר",
+    "address": "הפלמ\"ח 55, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-009",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "רביבים, גני ראשון",
+    "address": "אולגה ויהושוע פינת מיכאל לוין, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-010",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "רמב\"ם",
+    "address": "מוהליבר 2, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-011",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "רמב\"ם",
+    "address": "אשר לוין 9, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-012",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "רמז",
+    "address": "יוסף רויז פינת השומרון, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-013",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "רמז",
+    "address": "יוסף רויז פינת ארבל, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-014",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "נאות אשלים",
+    "address": "התזמורת 20, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-015",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "נחלת יהודה",
+    "address": "ניסים מלל 9 פינת עדה, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-016",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "נחלת יהודה",
+    "address": "העינב 20, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-017",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "נחלת יהודה",
+    "address": "העצמאות 46, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-018",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "נחלת יהודה",
+    "address": "מרים בן פורת 1, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-019",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "חוף הים",
+    "address": "חוף הים, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  },
+  {
+    "id": "rishon-cardboard-020",
+    "city": "rishon_lezion",
+    "category": "cardboard",
+    "bin": "cardboard",
+    "neighborhood": "נווה חוף, שער הים",
+    "address": "כורש פינת ארגמן, ראשון לציון",
+    "description": "",
+    "source": "Rishon LeZion municipality"
+  }
+]
